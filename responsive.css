@@ -1,0 +1,760 @@
+@media only screen 
+and (min-width: 320px)
+and (max-width: 374px) {
+
+  menu{
+    display: none;
+  }
+
+  .tweet{
+    display: none;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .search-more-bar{
+    display: none;
+  }
+
+  .home-div{
+    display: none;
+  }
+
+  .writing-section{
+    display: none;
+  }
+  .your-tweet-section{
+    display: none;
+  }
+
+  .footer-i .remove{
+    display: none;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 37px; */
+    /* position: absolute; */
+    left:0; 
+    right: 0;
+    /* margin-left: 321px; */
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .posts{
+    width: 100%;
+    /* border: 0;
+    border-right: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex; */
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .nav-bar{
+    width: 100%;
+    height: ;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    cursor: pointer;
+    position:fixed;
+  }
+
+  .FYP-FOLLOW{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 52px;
+    background-color:white;
+    position: relative;
+    top: 55px;
+  }
+
+  .other-people-posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+  }
+
+  article{
+    padding: 0px 0px;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    width: 100%;
+    /* background-color: black; */
+    overflow-x: hidden;
+  }
+
+  .name-p-img-i-div{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    padding-bottom: 12px;
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  .i-div{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .name-i-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    width: 100% ;
+  }
+
+  .name-hover{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 62px;
+    text-overflow:ellipsis;
+  }
+
+  .mobile{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 62px;
+    text-overflow:ellipsis;
+  }
+
+  .paragraph-div{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+
+  .img-post{
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .post-img{
+    border-radius: 16px;
+    display: inline-block;
+  }
+  
+  .post-img img{
+   width: 85%;
+   border-radius: 16px;
+  }
+
+  .footer-i-div{
+    width: 222px;
+    height: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 8px 0px 8px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 14px 0px 5px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .img-div-tweet{
+    height: 95px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 8px;
+  }
+
+  .logo-mobile{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 15px;
+    right: 50%;
+    font-size: 14px;
+  } 
+
+  .logo-mobile svg{
+    width: 27px;
+  }
+  
+  .nav-bar-mobile{
+    display: inline;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border: 0;
+    border-top: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+  }
+
+  .nav-bar-mobile nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar-mobile nav div{
+    width: 100%;
+  }
+
+  .nav-bar-mobile nav div i {
+    vertical-align: -25px;
+    width: 26px;
+    height: 26px;
+    font-size: 29px;
+    padding-right: 19px;
+  }
+
+  .tweet-div-mobile-btn{
+    display: inline;
+    width: 58px;
+    height: 58px;
+    background-color: #1D9BF0;
+    position: fixed;
+    right:20px;
+    bottom: 75px;
+    border-radius: 50%;
+  
+  }
+
+  .tweet-div-mobile-btn svg{
+    padding: 5px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+
+}
+
+@media only screen 
+and (min-width: 375px)
+and (max-width: 424px) {
+
+  menu{
+    display: none;
+  }
+
+  .tweet{
+    display: none;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .search-more-bar{
+    display: none;
+  }
+
+  .home-div{
+    display: none;
+  }
+
+  .writing-section{
+    display: none;
+  }
+  .your-tweet-section{
+    display: none;
+  }
+
+  .footer-i .remove{
+    display: none;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 37px; */
+    /* position: absolute; */
+    left:0; 
+    right: 0;
+    /* margin-left: 321px; */
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .posts{
+    width: 100%;
+    /* border: 0;
+    border-right: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex; */
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .nav-bar{
+    width: 100%;
+    height: ;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    cursor: pointer;
+    position:fixed;
+  }
+
+  .FYP-FOLLOW{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 52px;
+    background-color:white;
+    position: relative;
+    top: 55px;
+  }
+
+  .other-people-posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+  }
+
+  article{
+    padding: 0px 0px;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    width: 100%;
+    /* background-color: black; */
+    overflow-x: hidden;
+  }
+
+  .name-p-img-i-div{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    padding-bottom: 12px;
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  .i-div{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .name-i-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    width: 100% ;
+  }
+
+  .name-hover{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 75px;
+    text-overflow:ellipsis;
+  }
+
+  .mobile{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 85px;
+    text-overflow:ellipsis;
+  }
+
+  .paragraph-div{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+
+  .img-post{
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .post-img{
+    border-radius: 16px;
+    display: inline-block;
+  }
+  
+  .post-img img{
+   width: 90%;
+   border-radius: 16px;
+  }
+
+  .footer-i-div{
+    width: 282px;
+    height: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 8px 0px 8px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 14px 0px 5px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .img-div-tweet{
+    height: 95px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 8px;
+  }
+
+  .logo-mobile{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 15px;
+    right: 50%;
+    font-size: 14px;
+  } 
+
+  .logo-mobile svg{
+    width: 27px;
+  }
+  
+ .nav-bar-mobile{
+    display: inline;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border: 0;
+    border-top: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+  }
+
+  .nav-bar-mobile nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar-mobile nav div{
+    width: 100%;
+  }
+
+  .nav-bar-mobile nav div i {
+    vertical-align: -25px;
+    width: 26px;
+    height: 26px;
+    font-size: 29px;
+    padding-right: 19px;
+  }
+
+  .tweet-div-mobile-btn{
+    display: inline;
+    width: 58px;
+    height: 58px;
+    background-color: #1D9BF0;
+    position: fixed;
+    right:20px;
+    bottom: 75px;
+    border-radius: 50%;
+  }
+
+  .tweet-div-mobile-btn svg{
+    padding: 5px;
+    font-size: 50px;
+    color: white;
+  } 
+} 
+
+@media only screen 
+and (min-width: 425px)
+and (max-width: 600px) {
+
+  menu{
+    display: none;
+  }
+
+  .tweet{
+    display: none;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .search-more-bar{
+    display: none;
+  }
+
+  .home-div{
+    display: none;
+  }
+
+  .writing-section{
+    display: none;
+  }
+  .your-tweet-section{
+    display: none;
+  }
+
+  /* .footer-i .remove{
+    display: none;
+  } */
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 37px; */
+    /* position: absolute; */
+    left:0; 
+    right: 0;
+    /* margin-left: 321px; */
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .posts{
+    width: 100%;
+    /* border: 0;
+    border-right: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex; */
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .nav-bar{
+    width: 100%;
+    height: ;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    cursor: pointer;
+    position:fixed;
+  }
+
+  .FYP-FOLLOW{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 52px;
+    background-color:white;
+    position: relative;
+    top: 55px;
+  }
+
+  .other-people-posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+  }
+
+  article{
+    padding: 0px 0px;
+    border:0;
+    border-bottom: 0.7px;
+    border-color: #eff3f4;
+    border-style: solid;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    width: 100%;
+    /* background-color: black; */
+    overflow-x: hidden;
+  }
+
+  .name-p-img-i-div{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    padding-bottom: 12px;
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  .i-div{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .name-i-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    width: 100% ;
+  }
+
+  .name-hover{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 89.5px;
+    text-overflow:ellipsis;
+  }
+
+  .mobile{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80px;
+    text-overflow:ellipsis;
+  }
+
+  .paragraph-div{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+
+  .img-post{
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .post-img{
+    border-radius: 16px;
+    display: inline-block;
+  }
+  
+  .post-img img{
+   width: 95%;
+   border-radius: 16px;
+  }
+
+  .footer-i-div{
+    width: 322px;
+    height: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 8px 0px 8px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .footer-i-div div span{
+    padding: 0px 14px 0px 5px;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .img-div-tweet{
+    height: 95px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 8px;
+  }
+
+  .logo-mobile{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 15px;
+    right: 50%;
+    font-size: 14px;
+  } 
+
+  .logo-mobile svg{
+    width: 27px;
+  }
+  
+   .nav-bar-mobile{
+    display: inline;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border: 0;
+    border-top: 0.1px;
+    border-color: #eff3f4;
+    border-style: solid;
+  }
+
+  .nav-bar-mobile nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-bar-mobile nav div{
+    width: 100%;
+  }
+
+  .nav-bar-mobile nav div i {
+    vertical-align: -25px;
+    width: 26px;
+    height: 26px;
+    font-size: 29px;
+    padding-right: 19px;
+  }
+
+  .tweet-div-mobile-btn{
+    display: inline;
+    width: 58px;
+    height: 58px;
+    background-color: #1D9BF0;
+    position: fixed;
+    right:20px;
+    bottom: 75px;
+    border-radius: 50%;
+  }
+
+  .tweet-div-mobile-btn svg{
+    padding: 5px;
+    font-size: 50px;
+    color: white;
+  }
+}
